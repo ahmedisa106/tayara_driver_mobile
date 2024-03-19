@@ -1,0 +1,62 @@
+name: tayara_driver_mobile
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# flutter sdk is 3.19.0
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.18.0
+  dio: ^5.4.1
+  sizer: ^2.0.15
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^5.0.2
+  fluttertoast: ^8.2.4
+  flutter_local_notifications: ^17.0.0
+  flutter_launcher_icons: ^0.13.1
+  lottie: ^3.1.0
+  flutter_svg: ^2.0.10+1
+  firebase_core: ^2.27.1
+  firebase_messaging: ^14.7.20
+  shimmer: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: IBMPlex
+      fonts:
+        - asset: assets/fonts/IBMPlex-Regular.ttf
+        - asset: assets/fonts/IBMPlex-Bold.ttf
+          style: italic
+
+
+flutter_intl:
+  enabled: true
