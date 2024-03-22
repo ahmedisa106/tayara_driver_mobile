@@ -30,6 +30,7 @@ dependencies:
   firebase_core: ^2.27.1
   firebase_messaging: ^14.7.20
   shimmer: ^3.0.0
+  awesome_dialog: ^3.2.0
 
 
 dev_dependencies:

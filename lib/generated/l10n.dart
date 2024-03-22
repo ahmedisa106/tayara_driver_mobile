@@ -60,20 +60,20 @@ class S {
     );
   }
 
-  /// `Hello`
-  String get hello {
+  /// `Welcome`
+  String get welcome {
     return Intl.message(
-      'Hello',
-      name: 'hello',
+      'Welcome',
+      name: 'welcome',
       desc: '',
       args: [],
     );
   }
 
-  /// `come back again`
+  /// `back again`
   String get return_back {
     return Intl.message(
-      'come back again',
+      'back again',
       name: 'return_back',
       desc: '',
       args: [],
@@ -90,11 +90,221 @@ class S {
     );
   }
 
-  /// `Home visit`
-  String get home_visit {
+  /// `Password`
+  String get password {
     return Intl.message(
-      'Home visit',
-      name: 'home_visit',
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start`
+  String get start {
+    return Intl.message(
+      'Start',
+      name: 'start',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `End`
+  String get end {
+    return Intl.message(
+      'End',
+      name: 'end',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `More`
+  String get more {
+    return Intl.message(
+      'More',
+      name: 'more',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Change password`
+  String get change_password {
+    return Intl.message(
+      'Change password',
+      name: 'change_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contact us`
+  String get contact_us {
+    return Intl.message(
+      'Contact us',
+      name: 'contact_us',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Who we are`
+  String get who_we_are {
+    return Intl.message(
+      'Who we are',
+      name: 'who_we_are',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `you sure that you  to start the shift`
+  String get start_alert_msg {
+    return Intl.message(
+      'you sure that you  to start the shift',
+      name: 'start_alert_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `you sure that you  to end the shift`
+  String get end_alert_msg {
+    return Intl.message(
+      'you sure that you  to end the shift',
+      name: 'end_alert_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Order cancel`
+  String get order_cancel {
+    return Intl.message(
+      'Order cancel',
+      name: 'order_cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `you sure that you want to cancel the order`
+  String get cancel_alert_msg {
+    return Intl.message(
+      'you sure that you want to cancel the order',
+      name: 'cancel_alert_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sure`
+  String get sure {
+    return Intl.message(
+      'Sure',
+      name: 'sure',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Client data`
+  String get client_data {
+    return Intl.message(
+      'Client data',
+      name: 'client_data',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Store data`
+  String get store_data {
+    return Intl.message(
+      'Store data',
+      name: 'store_data',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `press here to go to store`
+  String get go_to_store {
+    return Intl.message(
+      'press here to go to store',
+      name: 'go_to_store',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `press here to call store`
+  String get call_store {
+    return Intl.message(
+      'press here to call store',
+      name: 'call_store',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `make order complete`
+  String get make_order_complete {
+    return Intl.message(
+      'make order complete',
+      name: 'make_order_complete',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `you sure that you want to complete the order`
+  String get complete_alert_msg {
+    return Intl.message(
+      'you sure that you want to complete the order',
+      name: 'complete_alert_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Writ your message here ...`
+  String get writ_you_msg {
+    return Intl.message(
+      'Writ your message here ...',
+      name: 'writ_you_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `send your message`
+  String get send_msg {
+    return Intl.message(
+      'send your message',
+      name: 'send_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Currant orders`
+  String get currant_orders {
+    return Intl.message(
+      'Currant orders',
+      name: 'currant_orders',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Previous orders`
+  String get previous_orders {
+    return Intl.message(
+      'Previous orders',
+      name: 'previous_orders',
       desc: '',
       args: [],
     );
@@ -115,36 +325,6 @@ class S {
     return Intl.message(
       'We work for your convenience',
       name: 'your_convenience',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Book a home visit for all types of medical care, through a specialized team`
-  String get welcome1 {
-    return Intl.message(
-      'Book a home visit for all types of medical care, through a specialized team',
-      name: 'welcome1',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Discounts of up to 50%, in addition to the secure payment feature`
-  String get welcome2 {
-    return Intl.message(
-      'Discounts of up to 50%, in addition to the secure payment feature',
-      name: 'welcome2',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Get the best advanced health experience now`
-  String get welcome3 {
-    return Intl.message(
-      'Get the best advanced health experience now',
-      name: 'welcome3',
       desc: '',
       args: [],
     );
@@ -1040,141 +1220,11 @@ class S {
     );
   }
 
-  /// `Rate your visit`
-  String get rate_your_visit {
-    return Intl.message(
-      'Rate your visit',
-      name: 'rate_your_visit',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Rate order`
-  String get rate_order {
-    return Intl.message(
-      'Rate order',
-      name: 'rate_order',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Rate visit No`
-  String get rate_visit_No {
-    return Intl.message(
-      'Rate visit No',
-      name: 'rate_visit_No',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Save rating`
-  String get save_rating {
-    return Intl.message(
-      'Save rating',
-      name: 'save_rating',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `We would love to hear your opinion`
-  String get rate_msg {
-    return Intl.message(
-      'We would love to hear your opinion',
-      name: 'rate_msg',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `review is required`
-  String get review_is_required {
-    return Intl.message(
-      'review is required',
-      name: 'review_is_required',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `minimum rate is 2.0`
-  String get minimum_rate {
-    return Intl.message(
-      'minimum rate is 2.0',
-      name: 'minimum_rate',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `You have already rated this order`
-  String get rate_error_msg {
-    return Intl.message(
-      'You have already rated this order',
-      name: 'rate_error_msg',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `welcome back`
   String get welcome_back {
     return Intl.message(
       'welcome back',
       name: 'welcome_back',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Payment Methods`
-  String get payment_methods {
-    return Intl.message(
-      'Payment Methods',
-      name: 'payment_methods',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `The payment was completed successfully`
-  String get the_payment_was_completed_successfully {
-    return Intl.message(
-      'The payment was completed successfully',
-      name: 'the_payment_was_completed_successfully',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Follow your orders from my wish list`
-  String get follow_your_orders_from_my_wish_list {
-    return Intl.message(
-      'Follow your orders from my wish list',
-      name: 'follow_your_orders_from_my_wish_list',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `There are some problems with payment`
-  String get there_are_some_problems_with_payment {
-    return Intl.message(
-      'There are some problems with payment',
-      name: 'there_are_some_problems_with_payment',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `If this problem persists, please contact your bank`
-  String get payment_failed_msg {
-    return Intl.message(
-      'If this problem persists, please contact your bank',
-      name: 'payment_failed_msg',
       desc: '',
       args: [],
     );
@@ -1270,26 +1320,6 @@ class S {
     );
   }
 
-  /// `Please go to the laboratory branch and ask the receptionist to search for an email with the order number and in the name of Refine, then give him the order number and the customer code found in the order details.`
-  String get order_detail_msg {
-    return Intl.message(
-      'Please go to the laboratory branch and ask the receptionist to search for an email with the order number and in the name of Refine, then give him the order number and the customer code found in the order details.',
-      name: 'order_detail_msg',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Please enter your wallet number`
-  String get enter_your_wallet_number {
-    return Intl.message(
-      'Please enter your wallet number',
-      name: 'enter_your_wallet_number',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `complete your order`
   String get complete_your_order {
     return Intl.message(
@@ -1305,16 +1335,6 @@ class S {
     return Intl.message(
       'select payment',
       name: 'select_payment',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `please go to the nearest Aman, Masary, Possible, or Sadad branch and ask for “Accept Payments” and provide your reference number.`
-  String get kiosk_msg {
-    return Intl.message(
-      'please go to the nearest Aman, Masary, Possible, or Sadad branch and ask for “Accept Payments” and provide your reference number.',
-      name: 'kiosk_msg',
       desc: '',
       args: [],
     );

@@ -15,7 +15,7 @@ class CustomTextField extends StatelessWidget {
       this.keybordType,
       this.validate,
       this.color,
-      this.minLines,
+      this.maxLines,
       this.textInputAction,
       this.onChanged,
       this.onFieldSubmitted});
@@ -25,12 +25,12 @@ class CustomTextField extends StatelessWidget {
   final String hintText;
   final bool hidden;
   final Widget? suffixIcon;
-  final Icon? prefix;
+  final Widget? prefix;
   final Iterable<String>? autofill;
   final TextInputType? keybordType;
   final String? Function(String?)? validate;
   final Color? color;
-  final int? minLines;
+  final int? maxLines;
   final TextInputAction? textInputAction;
   final void Function(String)? onFieldSubmitted;
   final void Function(String)? onChanged;
@@ -47,11 +47,11 @@ class CustomTextField extends StatelessWidget {
         controller: controller,
         autofillHints: autofill,
         obscureText: hidden,
-        minLines: minLines,
-        maxLines: minLines,
+        maxLines: maxLines,
         onFieldSubmitted: onFieldSubmitted,
         textInputAction: textInputAction,
         decoration: InputDecoration(
+          fillColor: ColorManager.lightGrey.withOpacity(0.1),
           filled: true,
           border: OutlineInputBorder(
             borderSide: BorderSide(
@@ -72,6 +72,8 @@ class CustomTextField extends StatelessWidget {
             ),
           ),
           suffixIcon: suffixIcon,
+          prefixIcon: prefix,
+          prefixIconColor: ColorManager.lightGrey.withOpacity(0.5),
           contentPadding: EdgeInsets.symmetric(vertical: 1.h, horizontal: 4.w),
           hintText: hintText,
           hintStyle: TextStyle(

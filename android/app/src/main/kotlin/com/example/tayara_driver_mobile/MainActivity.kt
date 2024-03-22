@@ -1,4 +1,4 @@
-package com.example.tayara_driver_mobile
+package com.tayara.driver
 
 import io.flutter.embedding.android.FlutterActivity
 

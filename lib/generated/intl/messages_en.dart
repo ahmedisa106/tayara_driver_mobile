@@ -37,23 +37,35 @@ class MessageLookup extends MessageLookupByLibrary {
         "birth_date": MessageLookupByLibrary.simpleMessage("Birth Date"),
         "booking_date": MessageLookupByLibrary.simpleMessage("Booking date"),
         "branch": MessageLookupByLibrary.simpleMessage("Branch"),
+        "call_store":
+            MessageLookupByLibrary.simpleMessage("press here to call store"),
         "cancel": MessageLookupByLibrary.simpleMessage("cancel"),
+        "cancel_alert_msg": MessageLookupByLibrary.simpleMessage(
+            "you sure that you want to cancel the order"),
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
+        "change_password":
+            MessageLookupByLibrary.simpleMessage("Change password"),
         "choose_city_and_area":
             MessageLookupByLibrary.simpleMessage("Choose your city"),
         "city": MessageLookupByLibrary.simpleMessage("City"),
+        "client_data": MessageLookupByLibrary.simpleMessage("Client data"),
         "clinics": MessageLookupByLibrary.simpleMessage("Clinics"),
         "closest": MessageLookupByLibrary.simpleMessage("closest"),
+        "complete_alert_msg": MessageLookupByLibrary.simpleMessage(
+            "you sure that you want to complete the order"),
         "complete_order":
             MessageLookupByLibrary.simpleMessage("Complete order"),
         "complete_your_order":
             MessageLookupByLibrary.simpleMessage("complete your order"),
         "completed_examinations":
             MessageLookupByLibrary.simpleMessage("Completed examinations"),
+        "contact_us": MessageLookupByLibrary.simpleMessage("Contact us"),
         "continue_payment":
             MessageLookupByLibrary.simpleMessage("continue payment"),
         "control_your_data":
             MessageLookupByLibrary.simpleMessage("control all your data"),
+        "currant_orders":
+            MessageLookupByLibrary.simpleMessage("Currant orders"),
         "customer_code": MessageLookupByLibrary.simpleMessage("Customer code"),
         "delete_account":
             MessageLookupByLibrary.simpleMessage("Delete account"),
@@ -66,10 +78,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "edit_profile_msg": MessageLookupByLibrary.simpleMessage(
             "do you want to save the modifications you have made to your personal data"),
         "email": MessageLookupByLibrary.simpleMessage("E-mail"),
+        "end": MessageLookupByLibrary.simpleMessage("End"),
+        "end_alert_msg": MessageLookupByLibrary.simpleMessage(
+            "you sure that you  to end the shift"),
         "enter_phone_number":
             MessageLookupByLibrary.simpleMessage("Enter your phone number"),
-        "enter_your_wallet_number": MessageLookupByLibrary.simpleMessage(
-            "Please enter your wallet number"),
         "examinations": MessageLookupByLibrary.simpleMessage("Examinations"),
         "exit_msg":
             MessageLookupByLibrary.simpleMessage("please tap again to exit"),
@@ -77,21 +90,16 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Famous laboratories"),
         "find_a_service_provider":
             MessageLookupByLibrary.simpleMessage("Find a service provider"),
-        "follow_your_orders_from_my_wish_list":
-            MessageLookupByLibrary.simpleMessage(
-                "Follow your orders from my wish list"),
         "get_well_soon": MessageLookupByLibrary.simpleMessage("get well soon"),
-        "hello": MessageLookupByLibrary.simpleMessage("Hello"),
+        "go_to_store":
+            MessageLookupByLibrary.simpleMessage("press here to go to store"),
         "highest_rating":
             MessageLookupByLibrary.simpleMessage("highest rating"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
-        "home_visit": MessageLookupByLibrary.simpleMessage("Home visit"),
         "hospitals": MessageLookupByLibrary.simpleMessage("Hospitals"),
         "incomplete_examinations":
             MessageLookupByLibrary.simpleMessage("Incomplete examinations"),
         "instead_of": MessageLookupByLibrary.simpleMessage("instead of "),
-        "kiosk_msg": MessageLookupByLibrary.simpleMessage(
-            "please go to the nearest Aman, Masary, Possible, or Sadad branch and ask for “Accept Payments” and provide your reference number."),
         "km": MessageLookupByLibrary.simpleMessage("km"),
         "laboratory": MessageLookupByLibrary.simpleMessage("Laboratory"),
         "laboratory_data":
@@ -110,11 +118,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "logout": MessageLookupByLibrary.simpleMessage("Logout"),
         "logout_msg": MessageLookupByLibrary.simpleMessage(
             "do you want to log out of the account"),
+        "make_order_complete":
+            MessageLookupByLibrary.simpleMessage("make order complete"),
         "mark_as_read": MessageLookupByLibrary.simpleMessage("mark as read"),
         "medical_laboratories":
             MessageLookupByLibrary.simpleMessage("Medical laboratories"),
-        "minimum_rate":
-            MessageLookupByLibrary.simpleMessage("minimum rate is 2.0"),
+        "more": MessageLookupByLibrary.simpleMessage("More"),
         "my_account": MessageLookupByLibrary.simpleMessage("Account"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
         "nearby_laboratories":
@@ -126,8 +135,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "No examinations have been recorded yet"),
         "no_internet": MessageLookupByLibrary.simpleMessage("No internet"),
         "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
-        "order_detail_msg": MessageLookupByLibrary.simpleMessage(
-            "Please go to the laboratory branch and ask the receptionist to search for an email with the order number and in the name of Refine, then give him the order number and the customer code found in the order details."),
+        "order_cancel": MessageLookupByLibrary.simpleMessage("Order cancel"),
         "order_details": MessageLookupByLibrary.simpleMessage("Order details"),
         "order_has_been_paid":
             MessageLookupByLibrary.simpleMessage("Order has been paid"),
@@ -136,40 +144,28 @@ class MessageLookup extends MessageLookupByLibrary {
         "orders_cart": MessageLookupByLibrary.simpleMessage("examinations"),
         "otp_msg": MessageLookupByLibrary.simpleMessage(
             "A confirmation code has been sent to the number. Please check your phone"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
         "patient_details":
             MessageLookupByLibrary.simpleMessage("Patient details"),
-        "payment_failed_msg": MessageLookupByLibrary.simpleMessage(
-            "If this problem persists, please contact your bank"),
-        "payment_methods":
-            MessageLookupByLibrary.simpleMessage("Payment Methods"),
         "phone": MessageLookupByLibrary.simpleMessage("Phone"),
         "phone_number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "please_complete_data":
             MessageLookupByLibrary.simpleMessage("Please complete all data"),
+        "previous_orders":
+            MessageLookupByLibrary.simpleMessage("Previous orders"),
         "price_start_from":
             MessageLookupByLibrary.simpleMessage("price start from  "),
         "privacy_policy":
             MessageLookupByLibrary.simpleMessage("Privacy policy"),
         "questions": MessageLookupByLibrary.simpleMessage("Questions"),
-        "rate_error_msg": MessageLookupByLibrary.simpleMessage(
-            "You have already rated this order"),
-        "rate_msg": MessageLookupByLibrary.simpleMessage(
-            "We would love to hear your opinion"),
-        "rate_order": MessageLookupByLibrary.simpleMessage("Rate order"),
-        "rate_visit_No": MessageLookupByLibrary.simpleMessage("Rate visit No"),
-        "rate_your_visit":
-            MessageLookupByLibrary.simpleMessage("Rate your visit"),
         "rays": MessageLookupByLibrary.simpleMessage("Rays"),
         "reference_number":
             MessageLookupByLibrary.simpleMessage("Reference number"),
         "refine": MessageLookupByLibrary.simpleMessage("Refine"),
-        "return_back": MessageLookupByLibrary.simpleMessage("come back again"),
+        "return_back": MessageLookupByLibrary.simpleMessage("back again"),
         "return_policy": MessageLookupByLibrary.simpleMessage("Return policy"),
-        "review_is_required":
-            MessageLookupByLibrary.simpleMessage("review is required"),
         "save": MessageLookupByLibrary.simpleMessage("save"),
         "save_address": MessageLookupByLibrary.simpleMessage("Save address"),
-        "save_rating": MessageLookupByLibrary.simpleMessage("Save rating"),
         "search": MessageLookupByLibrary.simpleMessage("search"),
         "search_in_services":
             MessageLookupByLibrary.simpleMessage("search in services"),
@@ -177,33 +173,31 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("please select branch"),
         "select_payment":
             MessageLookupByLibrary.simpleMessage("select payment"),
+        "send_msg": MessageLookupByLibrary.simpleMessage("send your message"),
         "services": MessageLookupByLibrary.simpleMessage("Services"),
         "show_all": MessageLookupByLibrary.simpleMessage("Show all"),
         "show_cart": MessageLookupByLibrary.simpleMessage("show cart"),
         "sign_in": MessageLookupByLibrary.simpleMessage("Sign in"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "sort_by": MessageLookupByLibrary.simpleMessage("Sort by"),
+        "start": MessageLookupByLibrary.simpleMessage("Start"),
+        "start_alert_msg": MessageLookupByLibrary.simpleMessage(
+            "you sure that you  to start the shift"),
         "start_now": MessageLookupByLibrary.simpleMessage("Start now"),
+        "store_data": MessageLookupByLibrary.simpleMessage("Store data"),
+        "sure": MessageLookupByLibrary.simpleMessage("Sure"),
         "terms": MessageLookupByLibrary.simpleMessage("Terms and conditions"),
-        "the_payment_was_completed_successfully":
-            MessageLookupByLibrary.simpleMessage(
-                "The payment was completed successfully"),
-        "there_are_some_problems_with_payment":
-            MessageLookupByLibrary.simpleMessage(
-                "There are some problems with payment"),
         "total_payment": MessageLookupByLibrary.simpleMessage("Total payment"),
         "transaction_number":
             MessageLookupByLibrary.simpleMessage("transaction number"),
         "transactions": MessageLookupByLibrary.simpleMessage("Transactions"),
         "try_again": MessageLookupByLibrary.simpleMessage("Try again"),
         "wallet": MessageLookupByLibrary.simpleMessage("Wallet"),
-        "welcome1": MessageLookupByLibrary.simpleMessage(
-            "Book a home visit for all types of medical care, through a specialized team"),
-        "welcome2": MessageLookupByLibrary.simpleMessage(
-            "Discounts of up to 50%, in addition to the secure payment feature"),
-        "welcome3": MessageLookupByLibrary.simpleMessage(
-            "Get the best advanced health experience now"),
+        "welcome": MessageLookupByLibrary.simpleMessage("Welcome"),
         "welcome_back": MessageLookupByLibrary.simpleMessage("welcome back"),
+        "who_we_are": MessageLookupByLibrary.simpleMessage("Who we are"),
+        "writ_you_msg":
+            MessageLookupByLibrary.simpleMessage("Writ your message here ..."),
         "you_can_search": MessageLookupByLibrary.simpleMessage(
             "You can search for the laboratory closest to you or the service you want"),
         "your_convenience":

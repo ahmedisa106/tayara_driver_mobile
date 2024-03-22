@@ -12,7 +12,7 @@ class AppBoxShadow {
   ];
 
   static boxShadow01() => BoxShadow(
-    color: Colors.grey.withOpacity(0.15),
+    color: Colors.grey.withOpacity(0.1),
     spreadRadius: .5,
     blurRadius: 1,
     offset: const Offset(0, 1), //
@@ -26,16 +26,16 @@ class AppBoxShadow {
   );
 
   static boxShadow3() => BoxShadow(
-    color: Colors.grey.withOpacity(0.15),
-    spreadRadius: 1,
-    blurRadius: 4,
+    color: Colors.grey.withOpacity(0.1),
+    spreadRadius: .1,
+    blurRadius: 5,
     offset: const Offset(1, 0), //
   );
 
   static boxShadow03() => BoxShadow(
-    color: Colors.grey.withOpacity(0.15),
-    spreadRadius: 1,
-    blurRadius: 4,
+    color: Colors.grey.withOpacity(0.1),
+    spreadRadius: .1,
+    blurRadius: 1,
     offset: const Offset(0, 1), //
   );
 }
